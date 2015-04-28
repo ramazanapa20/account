@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Gelirlerim:</strong>
+  <%= @account_list.gelirlerim %>
+</p>
+
+<p>
+  <strong>Giderlerim:</strong>
+  <%= @account_list.giderlerim %>
+</p>
+
+<%= link_to 'Edit', edit_account_list_path(@account_list) %> |
+<%= link_to 'Back', account_lists_path %>
